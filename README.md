@@ -23,3 +23,8 @@ Which is used to the corresponding `plot_eig_vec.py` which can be run as
 ```Shell
 python plot_eig_vec.py
 ```
+
+To run the test for Problem 3 we can run the command
+```Shell
+g++ -I include src/utils.cpp test_3.cpp -o test_3
+```
